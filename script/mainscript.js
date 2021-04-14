@@ -46,7 +46,7 @@ var template = $("#template li");
 newInput.keyup(function(event){
     console.log(event.which);
     
-    if(event.which ===13){
+    if(event.which === 13){
       //  console.log("enter");
       var text = newInput.val().trim();
 
@@ -73,7 +73,6 @@ newInput.keyup(function(event){
 $("body").on("click", ".todos li i", function(){
     $(this).parent().remove();
 } )
-
 
 
 
