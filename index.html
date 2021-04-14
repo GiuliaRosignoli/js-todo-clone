@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <!--/Font-->
+    <!-- cdn FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--/ cdn FontAwesome-->
     <!--Style-->
     <link rel="stylesheet" href="./style/style.css">
      <!--Style-->
@@ -11,7 +18,35 @@
 </head>
 <body>
     
+    <div class="app">
+        <header>
+            <h1>My to-do list</h1>
+        </header>
 
+        <main>
+            <input 
+                type="text" 
+                class="add-todo"
+                placeholder="Insert your text here"
+            >
+
+            <ul class="todos">
+                
+
+            </ul>
+        </main>
+
+    </div>
+
+
+    <!-- Template-->
+
+    <div id="template" style="display: none;">
+        <li>
+            <span class="text"></span>
+            <i class="far fa-trash-alt"></i>
+        </li>
+    </div>
 
 
 
